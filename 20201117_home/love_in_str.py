@@ -27,7 +27,7 @@ a = """Октябрь уж наступил — уж роща отряхает
 
 b = a.lower()
 c = b.split("\n")
-print(c)
+
 def f (x):
     for i in x:
         if i.find("люблю") != -1:
