@@ -28,8 +28,8 @@ a = """Октябрь уж наступил — уж роща отряхает
 Иль киснуть у печей за стеклами двойными"""
 
 b = a.split()
-shot_ = "               "
-for i in b:
+shot_ = b[0]
+for i in b[1:]:
     if len(i) < len(shot_):
         shot_ = i
 print(shot_)
